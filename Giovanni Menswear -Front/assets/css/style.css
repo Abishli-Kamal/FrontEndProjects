@@ -1,0 +1,69 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#headersec .container .row .logo img {
+  width: 100px;
+  margin-left: 5%;
+}
+
+#headersec .container .row .logo .name {
+  margin-top: 1%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#headersec .container .row .logo .name h5 {
+  font-size: 15px;
+  color: #3b3b3b;
+}
+
+#headersec .container .row .navigation-bar ul {
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#headersec .container .row .navigation-bar ul li {
+  list-style: none;
+}
+
+#headersec .container .row .navigation-bar ul li:hover a {
+  color: darkgoldenrod;
+}
+
+#headersec .container .row .navigation-bar ul li .store {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#headersec .container .row .navigation-bar ul li:hover .store {
+  opacity: 1;
+  visibility: visible;
+}
+
+#headersec .container .row .navigation-bar ul li:hover .store a {
+  color: darkgoldenrod;
+}
+
+#headersec .container .row .navigation-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#headersec .container .row .navigation-bar ul li .register .icon a i {
+  font-size: 25px;
+  color: black;
+}
+
+#headersec .container .row .navigation-bar ul li .register .icontext a {
+  text-decoration: none;
+}
+
+#headersec .container .row .navigation-bar ul li .basket i {
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
